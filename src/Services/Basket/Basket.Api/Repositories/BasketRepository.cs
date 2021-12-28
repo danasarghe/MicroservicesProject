@@ -32,9 +32,9 @@ namespace Basket.Api.Repositories
             return await GetBasket(basket.UserName);
         }
 
-        public async Task DeleteBasket(string useName)
+        public async Task DeleteBasket(string userName)
         {
-            await _redisCache.RemoveAsync(useName);
+            await _redisCache.RemoveAsync(userName);
         }
     }
 }
