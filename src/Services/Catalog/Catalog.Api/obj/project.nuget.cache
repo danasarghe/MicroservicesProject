@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "FH++L2LzYTMiZS0nSoTCWLqZ5IwJE6rs4vMr1+Zu77LPwxIW+0iHLgYNwKjK+9VSw16DPTbGVfUEz9xaJWCMDA==",
+  "dgSpecHash": "Xirx4nlYw0IjpHiXsJ6ibC24jmfmBgDxaFJ1atdwYeMx1eHLLOujryfTEJhWyHQt5RbitBabsKOL0WlF5bFvAw==",
   "success": true,
   "projectFilePath": "D:\\PersonalStuff\\MicroservicesProject\\src\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
