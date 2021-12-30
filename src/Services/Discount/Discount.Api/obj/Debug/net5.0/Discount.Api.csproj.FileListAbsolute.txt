@@ -27,3 +27,6 @@ D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\obj\Deb
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\obj\Debug\net5.0\ref\Discount.Api.dll
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\obj\Debug\net5.0\Discount.Api.pdb
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\obj\Debug\net5.0\Discount.Api.genruntimeconfig.cache
+D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\bin\Debug\net5.0\Dapper.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\bin\Debug\net5.0\Npgsql.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

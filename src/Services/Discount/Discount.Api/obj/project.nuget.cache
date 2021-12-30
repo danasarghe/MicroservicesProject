@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ijDgISNTZsV6R7Apf5VzK1ES3NAh9M8FNOT4lIjivozNws8bRSse5fcmZxjtVnogbXmcWLEbdqO2Ve40yVgC3A==",
+  "dgSpecHash": "AMkMQ0U1fk3M0wEnl8iK0FYVi9u42jh1uGtsidV2V0Jd4L561yH6+p5jew0DEW5YfRjGbzfAtwFA0hIhWxeM0A==",
   "success": true,
   "projectFilePath": "D:\\PersonalStuff\\MicroservicesProject\\src\\Services\\Discount\\Discount.Api\\Discount.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\npgsql\\6.0.2\\npgsql.6.0.2.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
