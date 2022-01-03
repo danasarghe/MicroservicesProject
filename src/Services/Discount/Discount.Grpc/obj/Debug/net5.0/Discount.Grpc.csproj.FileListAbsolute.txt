@@ -32,3 +32,5 @@ D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\bin\De
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\Npgsql.dll
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\obj\Debug\net5.0\Discount.Grpc.csproj.AssemblyReference.cache
+D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\AutoMapper.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Discount\Discount.Grpc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
