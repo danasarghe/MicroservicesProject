@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xE0ez6xy1zHuo8M9NmIt4uX0EX2+yK1gXvJno8dU6caC1wilodoBQkYRVcmGKR9XsZTTF0HxSGppOEnBs4dCOw==",
+  "dgSpecHash": "Q3RaT50/fE+te9XwmnwYrO9G0tj0VmRaSmNR2g9pB001EUNbq/z4QqPjZGk+sJKmtEW+iesus1sv2KLRiNU8pQ==",
   "success": true,
   "projectFilePath": "D:\\PersonalStuff\\MicroservicesProject\\src\\Services\\Ordering\\Ordering.Api\\Ordering.Api.csproj",
   "expectedPackageFiles": [
