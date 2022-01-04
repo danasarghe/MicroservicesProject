@@ -27,3 +27,17 @@ D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\obj\Deb
 D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\obj\Debug\net5.0\ref\Ordering.Api.dll
 D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\obj\Debug\net5.0\Ordering.Api.pdb
 D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\obj\Debug\net5.0\Ordering.Api.genruntimeconfig.cache
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\.filenesting.json
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\AutoMapper.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\FluentValidation.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\MediatR.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Application.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Domain.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Infrastructure.dll
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Application.pdb
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Infrastructure.pdb
+D:\PersonalStuff\MicroservicesProject\src\Services\Ordering\Ordering.Api\bin\Debug\net5.0\Ordering.Domain.pdb

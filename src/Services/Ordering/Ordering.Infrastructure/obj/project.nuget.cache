@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OTscguDfz2riD2mQDtxv5FipjO/binnN0GQP9+3NpNjn81/kjgXv0oVPpN13EBmfzszEN50RFGt6bHHz//3oXg==",
+  "dgSpecHash": "kwarrtrZRbnMwIs38qX1Wy9vnh5zmnvd3FwJWS7HwhfNwTqak5K5Zcv5rJShbq1ZwctasNIDEXxDFInvhebLgA==",
   "success": true,
   "projectFilePath": "D:\\PersonalStuff\\MicroservicesProject\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\dana.sarghe\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\dana.sarghe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
