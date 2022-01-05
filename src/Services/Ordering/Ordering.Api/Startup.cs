@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Ordering.Application;
+using Ordering.Infrastructure;
 
 namespace Ordering.Api
 {
@@ -26,8 +27,8 @@ namespace Ordering.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationServices();
-            //TODO services.AddInfrastructureServices();
+            //services.AddApplicationServices();
+            //services.AddInfrastructureServices();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
