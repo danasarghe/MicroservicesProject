@@ -9,7 +9,7 @@ namespace Ordering.Infrastructure.Persistence
 {
     public class OrderContext : DbContext
     {
-        public OrderContext(DbContextOptions<OrderContext> options) : base()
+        public OrderContext(DbContextOptions<OrderContext> options) : base(options)
         {
         }
 
