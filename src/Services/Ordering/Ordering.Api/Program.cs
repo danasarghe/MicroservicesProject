@@ -5,7 +5,6 @@ using Ordering.Api.Extensions;
 using Ordering.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
-
 namespace Ordering.Api
 {
     public class Program
@@ -17,7 +16,8 @@ namespace Ordering.Api
                 .MigrateDatabase<OrderContext>((context, services) =>
                 {
                     var logger = services.GetService<ILogger<OrderContextSeed>>();
-                    OrderContextSeed.SeedAsync(context, logger)
+                    OrderContextSeed
+                        .SeedAsync(context, logger)
                         .Wait();
                 })
                 .Run();

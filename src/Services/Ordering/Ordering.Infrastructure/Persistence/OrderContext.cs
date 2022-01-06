@@ -29,7 +29,7 @@ namespace Ordering.Infrastructure.Persistence
                         entry.Entity.LastModifiedDate = DateTime.Now;
                         entry.Entity.LastModifiedBy = "swn";
                         break;
-                }  
+                }
             }
 
             return base.SaveChangesAsync(cancellationToken);
