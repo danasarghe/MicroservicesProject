@@ -14,7 +14,6 @@ using EventBus.Messages.Common;
 using MassTransit;
 using Ordering.Application;
 using Ordering.Infrastructure;
-using Ordering.Api.
 using Ordering.Api.EventBusConsumer;
 
 namespace Ordering.Api
@@ -48,6 +47,9 @@ namespace Ordering.Api
             });
             services.AddMassTransitHostedService();
 
+
+            services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<BasketCheckoutConsumer>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

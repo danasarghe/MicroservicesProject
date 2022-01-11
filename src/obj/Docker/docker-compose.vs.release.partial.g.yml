@@ -14,7 +14,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_basket.api$ \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "Basket.Api"
@@ -32,7 +32,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"/app/Catalog.Api.dll\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_catalog.api$ \"/app/Catalog.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "Catalog.Api"
@@ -51,7 +51,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_discount.api$ \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "Discount.Api"
@@ -70,8 +70,27 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_discount.grpc$ \"\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
       com.microsoft.visual-studio.project-name: "Discount.Grpc"
+    tty: true
+
+  ordering.api:
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Ordering.Api"
+    volumes:
+      - C:\Users\dana.sarghe\vsdbg\vs2017u5:/remote_debugger:rw
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_ordering.api$ \"\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "Ordering.Api"
     tty: true
